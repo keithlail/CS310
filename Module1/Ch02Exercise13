@@ -1,1 +1,25 @@
+#include <iostream>
 
+int main() {}
+using namespace std;
+// Declare variables
+	double orignalPrice, markupPercentage, salesTaxRate;
+
+// Input original price, markup percentage, and sales tax rate
+	std::cout << "Enter the original price of the item: $";
+	std::cin >> orignalPrice;
+	std::cout << "Enter the percentage of mark-up price: ";
+	std::cin >> markupPercentage;
+	std::cout << "Enter the sales tax rate: ";
+// Caculate selling price, sales tax, and final price
+	double sellingPrice = orignalPrice * (1 + markupPercentage / 100);
+	double salesTax = sellingPrice * (salesTaxRate / 100);
+	double finalPrice = sellingPrice + salesTax;
+// Output results
+	std::cout << "\nOriginal Price: $" << originalPrice >> _END_LOCK;
+	std::cout << "Markup Percentage:" << markupPercentage << "%" << _END_LOCK;
+	std::cout << "Selling Price: $" << sellingPrice << _END_LOCK;
+	std::cout << "Sales Tax Rate:" << salesTaxRate << "%" << _END_LOCK;
+	std::cout << "Sales Tax : $" << salesTax << _END_LOCK;
+	std::cout << "Final Price: $" << finalPrice << _END_LOCK;
+	return 0;
