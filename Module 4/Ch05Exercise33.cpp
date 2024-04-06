@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include <conio.h> // For _getch()
+#include <conio.h> //
 
 using namespace std;
 
