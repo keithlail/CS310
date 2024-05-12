@@ -1,6 +1,8 @@
 // Ch11Exercise13.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+Name: Keith Lail
+Assignment: Ch11Exercise13
+Date: 5/11/24    
 #include <iostream>
 #include <conio.h>  // For _getch()
 
